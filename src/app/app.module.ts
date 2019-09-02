@@ -9,6 +9,8 @@ import { HeroesComponent }      from './heroes/heroes.component';
 import { MessagesComponent }    from './messages/messages.component';
 
 import { AppRoutingModule }     from './app-routing.module';
+import { BoardControlsComponent } from './board-controls/board-controls.component';
+import { LightSettingsComponent } from './light-settings/light-settings.component';
 
 @NgModule({
   imports: [
@@ -21,7 +23,9 @@ import { AppRoutingModule }     from './app-routing.module';
     DashboardComponent,
     HeroesComponent,
     HeroDetailComponent,
-    MessagesComponent
+    MessagesComponent,
+    BoardControlsComponent,
+    LightSettingsComponent
   ],
   bootstrap: [ AppComponent ]
 })
